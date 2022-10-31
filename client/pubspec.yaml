@@ -1,0 +1,86 @@
+name: news
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  youtube_player_flutter:
+  cached_network_image:
+  flutter_html_all:
+  cupertino_icons:
+  webview_flutter:
+  auto_size_text:
+  video_player:
+  flutter_html:
+  hive_flutter:
+  pod_player:
+  go_router:
+  protobuf:
+  timeago:
+  fixnum:
+  http:
+  intl:
+  hive:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_gen_runner:
+  hive_generator:
+  flutter_lints:
+  build_runner:
+
+flutter_gen:
+  output: lib/screen/widget/option/
+  integrations:
+      flutter_svg: true
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: NotoSansDisplay
+      fonts:
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Black.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-BlackItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-BoldItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-ExtraBold.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-ExtraBoldItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-ExtraLight.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-ExtraLightItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Italic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Light.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-LightItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Medium.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-MediumItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Regular.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-SemiBold.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-SemiBoldItalic.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-Thin.ttf
+        - asset: assets/fonts/NotoSansDisplay/NotoSansDisplay-ThinItalic.ttf
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-BlackItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-BoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-ExtraBold.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-MediumItalic.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-SemiBoldItalic.ttf
